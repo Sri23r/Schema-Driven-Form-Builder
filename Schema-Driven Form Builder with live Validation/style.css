@@ -1,0 +1,88 @@
+.form-inp > input,select{
+    border: 1px solid rgb(42, 138, 173);
+    border-radius: 5px;
+}
+
+.body-container{
+    width: 100%;
+    text-align: center;
+    background-image: url("backgroundImg.svg");
+}
+
+.bttn-fetch-dynamic-form{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 30%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #4080bf;
+    color: aliceblue;
+    border: 0px solid #000000;
+    border-radius: 4px;
+}
+.bttn-fetch-dynamic-form:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #4080bf;
+    border: 1px solid #4080bf; 
+}
+.displaynone{
+    display: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.form-container{
+
+}
+.field-container-data{
+    padding-top: 10px;
+}
+.field-container{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.form-label{
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.form-label::after{
+    content: "*";
+    margin-right: 4px;
+    color: #ff0000;
+}
+.form-inp{
+    margin-left: 10px;
+    width: 30%;
+    display: flex;
+}
+.inp{
+    padding: 5px;
+    width: 100%;
+}
+.error-field{
+    padding-left: 10px;
+    color: #ff0000;
+}
+
+.form-submit-bttn{
+    width: 20%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #53c68c;
+    color: aliceblue;
+    border: 0px solid #000000;
+    border-radius: 4px;
+}
+.form-submit-bttn:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #53c68c;
+    border: 1px solid #53c68c;
+}
